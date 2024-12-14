@@ -75,7 +75,10 @@
 
   .hero-section {
     height: 350px;
-    @apply relative p-12 rounded-lg shadow-xl bg-right-top bg-no-repeat bg-cover;
+    background-image: linear-gradient(0.2turn, rgb(249 250 251 / 1), rgb(249 250 251 / 1) 50%, rgb(249 250 251 / 0.8) 65%, transparent 80%), url('/images/header.jpg');
+    background-position: right center;
+    background-size: contain;
+    @apply relative p-12 rounded-lg shadow-xl bg-no-repeat;
     padding-right: 170px; /* don't overlap with background image */
   }
 

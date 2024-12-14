@@ -36,8 +36,6 @@
       "font-blinker",
       "font-bold",
       "font-light",
-      "gap-6",
-      "grid",
       "grid-cols-2",
       "grid-cols-3",
       "hero-section",
