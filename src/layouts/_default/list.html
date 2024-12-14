@@ -1,0 +1,20 @@
+{{ define "main" }}
+<div class="prose lg:prose-xl mx-auto">
+    <h1 class="text-4xl font-bold mb-8">{{ .Title }}</h1>
+    {{ .Content }}
+    
+    <div class="space-y-8">
+        {{ range .Pages }}
+        <article>
+            <h2 class="text-2xl font-semibold mb-2">
+                <a href="{{ .RelPermalink }}" class="text-blue-600 hover:text-blue-800">{{ .Title }}</a>
+            </h2>
+            {{ if .Date }}
+            <time class="text-gray-500 block mb-2">{{ .Date.Format "January 2, 2006" }}</time>
+            {{ end }}
+            <p class="text-gray-600">{{ .Summary }}</p>
+        </article>
+        {{ end }}
+    </div>
+</div>
+{{ end }} 

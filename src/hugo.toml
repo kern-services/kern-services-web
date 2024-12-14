@@ -1,0 +1,41 @@
+baseURL = 'https://kern.services/'
+languageCode = 'en-us'
+title = 'kern.services'
+
+[build]
+  writeStats = true
+
+[module]
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
+  [[module.mounts]]
+    source = "static"
+    target = "static"
+  [[module.mounts]]
+    source = "node_modules"
+    target = "assets/node_modules"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[security]
+  [security.funcs]
+    getenv = ['^HUGO_', '^CF_']
+
+[outputFormats]
+  [outputFormats.HTML]
+    mediaType = "text/html"
+    isHTML = true
+    permalinkable = true
+
+[build.buildStats]
+  enable = true
+
+[build.processing]
+  [build.processing.css]
+    method = "postcss"
+    includePaths = ["assets/css"]
+    options = ["minify"]

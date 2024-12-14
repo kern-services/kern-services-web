@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+    {{ $css := resources.Get "css/main.css" | resources.PostCSS }}
+    <link rel="stylesheet" href="{{ $css.RelPermalink }}">
+</head>
+<body class="min-h-screen bg-gray-50 font-blinker">
+    <header class="bg-white shadow-sm">
+        <nav class="container py-4 flex justify-end space-x-6">
+            <a href="/" class="text-lg text-gray-900 hover:text-blue-600">Home</a>
+            <a href="/about-us" class="text-lg text-gray-900 hover:text-blue-600">Über mich</a>
+            <a href="/impressum" class="text-lg text-gray-900 hover:text-blue-600">Impressum</a>
+        </nav>
+    </header>
+
+    <main class="container py-8">
+        {{ block "main" . }}{{ end }}
+    </main>
+
+    <footer class="bg-gray-900 text-white mt-auto">
+        <div class="container py-6">
+            <nav class="mb-4">
+                <ul class="flex space-x-6">
+                    <li><a href="/" class="hover:text-blue-400">Home</a></li>
+                    <li><a href="/about-us" class="hover:text-blue-400">Über mich</a></li>
+                    <li><a href="/impressum" class="hover:text-blue-400">Impressum</a></li>
+                    <li><a href="https://mail.kern.services" class="hover:text-blue-400">Mailserver Login</a></li>
+                </ul>
+            </nav>
+            <p>&copy; {{ now.Format "2006" }} {{ .Site.Title }}. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
