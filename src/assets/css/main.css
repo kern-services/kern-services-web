@@ -46,11 +46,11 @@
   }
 
   .card-container {
-    @apply flex flex-col md:flex-row justify-between gap-8;
+    @apply grid gap-6;
   }
 
   .card {
-    @apply flex-1 bg-white p-8 rounded-lg shadow-md text-center;
+    @apply bg-white p-8 rounded-lg shadow-md text-center h-full;
   }
 
   .card-hover {
