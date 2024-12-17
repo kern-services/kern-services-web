@@ -1,0 +1,49 @@
+{{ $project := . }}
+<div class="mb-24">
+    <div class="bg-gradient-to-r from-{{ $project.color }}-600 to-{{ $project.color }}-800 rounded-lg p-8 text-white mb-6">
+        <div class="flex justify-between items-start">
+            <div>
+                <h2 class="text-2xl font-light mb-2">{{ $project.title }}</h2>
+                {{ with $project.subtitle }}<p class="text-sm mb-2">{{ . }}</p>{{ end }}
+            </div>
+            <span class="text-sm bg-white/20 rounded px-3 py-1">{{ $project.period }}</span>
+        </div>
+        <p class="text-lg">{{ $project.role }}</p>
+    </div>
+    <div class="prose max-w-none">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+            <div>
+                {{ with $project.description }}<p class="text-lg">{{ . }}</p>{{ end }}
+                {{ with $project.achievements }}
+                <ul>
+                    {{ range . }}
+                    <li>{{ . }}</li>
+                    {{ end }}
+                </ul>
+                {{ end }}
+            </div>
+            <div class="{{ if $project.hasQuote }}bg-gray-50{{ else }}bg-gradient-to-br from-{{ $project.color }}-50 to-{{ $project.color }}-100{{ end }} p-8 rounded-lg flex items-center">
+                {{ if $project.hasQuote }}
+                <blockquote class="text-gray-700 italic">
+                    {{ $project.quote }}
+                    <footer class="mt-4 text-sm text-gray-600">
+                        {{ $project.quoteAuthor }}
+                    </footer>
+                </blockquote>
+                {{ else if $project.image }}
+                <div class="aspect-video w-full bg-white rounded-lg shadow-lg flex items-center justify-center">
+                    <img src="{{ $project.image }}" alt="{{ $project.imageAlt }}" class="rounded-lg object-cover" />
+                </div>
+                {{ end }}
+            </div>
+        </div>
+        <div class="bg-gray-50 p-4 rounded-lg">
+            <p class="font-medium mb-2">Technologien:</p>
+            <div class="flex flex-wrap gap-2">
+                {{ range $project.technologies }}
+                <span class="bg-{{ $project.color }}-100 text-{{ $project.color }}-800 px-3 py-1 rounded">{{ . }}</span>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</div> 

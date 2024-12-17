@@ -1,0 +1,14 @@
+{{ define "main" }}
+<div class="space-y-16">
+  <div class="section">
+    <div class="container">
+      <h1 class="section-title">{{ .Title }}</h1>
+      <p class="text-lg text-center text-gray-600 mb-16">Eine Auswahl meiner wichtigsten Projekte der letzten Jahre, die meine Expertise in der Entwicklung komplexer Softwarelösungen zeigen.</p>
+      
+      {{ range .Site.Data.projects.projects }}
+        {{ partial "project-card" . }}
+      {{ end }}
+    </div>
+  </div>
+</div>
+{{ end }} 
