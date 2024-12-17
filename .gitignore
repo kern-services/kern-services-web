@@ -3,3 +3,5 @@ src/.hugo_build.lock
 src/public/
 src/resources/_gen/
 src/node_modules/
+.cursorrules
+todo.md

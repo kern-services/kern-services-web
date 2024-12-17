@@ -9,11 +9,14 @@
 </head>
 <body class="min-h-screen bg-gray-50 font-blinker">
     <header class="bg-white shadow-sm">
-        <nav class="container py-4 flex justify-end space-x-6">
-            <a href="/" class="text-lg text-gray-900 hover:text-blue-600">Home</a>
-            <a href="/about-us" class="text-lg text-gray-900 hover:text-blue-600">Über mich</a>
-            <a href="/impressum" class="text-lg text-gray-900 hover:text-blue-600">Impressum</a>
-        </nav>
+        <div class="container py-4 flex justify-between items-center">
+            <a href="/" class="text-2xl font-semibold text-gray-900">kern.services</a>
+            <nav class="flex space-x-6">
+                <a href="/" class="text-lg text-gray-900 hover:text-blue-600">Home</a>
+                <a href="/about-us" class="text-lg text-gray-900 hover:text-blue-600">Über mich</a>
+                <a href="/impressum" class="text-lg text-gray-900 hover:text-blue-600">Impressum</a>
+            </nav>
+        </div>
     </header>
 
     <main class="container py-8">
@@ -24,10 +27,8 @@
         <div class="container py-6">
             <nav class="mb-4">
                 <ul class="flex space-x-6">
-                    <li><a href="/" class="hover:text-blue-400">Home</a></li>
-                    <li><a href="/about-us" class="hover:text-blue-400">Über mich</a></li>
                     <li><a href="/impressum" class="hover:text-blue-400">Impressum</a></li>
-                    <li><a href="https://mail.kern.services" class="hover:text-blue-400">Mailserver Login</a></li>
+                    <li><a href="https://mailserver.kernetics.de/SOGo/" class="hover:text-blue-400">Mailserver Login</a></li>
                 </ul>
             </nav>
             <p>&copy; {{ now.Format "2006" }} {{ .Site.Title }}. All rights reserved.</p>
