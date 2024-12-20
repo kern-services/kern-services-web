@@ -1,86 +1,28 @@
 @import "tailwindcss";
+@import "fonts.css";
 
 @theme {
-  --default-font-family: "Blinker", "sans-serif";
+  --default-font-family: "Urbanist", "sans-serif";
 
   /* Colors */
-  --color-blue-50: #f3f6fb;
-  --color-blue-100: #e4e9f5;
-  --color-blue-200: #d0d9ed;
-  --color-blue-300: #afc1e1;
-  --color-blue-400: #89a0d1;
-  --color-blue-500: #6d83c4;
-  --color-blue-600: #5a6bb6;
-  --color-blue-700: #4f5ba6;
-  --color-blue-800: #454d88;
-  --color-blue-900: #353b62;
-  --color-blue-950: #272a44;
 
-  --color-yellow-50: #fef7ec;
-  --color-yellow-100: #fbeaca;
-  --color-yellow-200: #f7d390;
-  --color-yellow-300: #f2b857;
-  --color-yellow-400: #f0a339;
-  --color-yellow-500: #e87e18;
-  --color-yellow-600: #ce5b11;
-  --color-yellow-700: #ab3e12;
-  --color-yellow-800: #8b3115;
-  --color-yellow-900: #722a15;
-  --color-yellow-950: #411307;
+  --color-primary: var(--color-cyan-800);
+  --color-primary-medium: var(--color-cyan-500);
+  --color-primary-light: var(--color-cyan-100);
 
-  --color-green-50: #f1fce9;
-  --color-green-100: #e0f7d0;
-  --color-green-200: #beef9e;
-  --color-green-300: #9ce571;
-  --color-green-400: #7ad546;
-  --color-green-500: #5abb27;
-  --color-green-600: #44951b;
-  --color-green-700: #357219;
-  --color-green-800: #2e5a1a;
-  --color-green-900: #294d1a;
-  --color-green-950: #152a0b;
+  --color-secondary: var(--color-fuchsia-700);
+  --color-secondary-medium: var(--color-fuchsia-400);
+  --color-secondary-light: var(--color-fuchsia-100);
 
-  --color-primary: var(--color-blue-800);
-  --color-primary-medium: var(--color-blue-500);
-  --color-primary-light: var(--color-blue-100);
-
-  --color-secondary: var(--color-yellow-400);
-  --color-secondary-medium: var(--color-yellow-600);
-  --color-secondary-light: var(--color-yellow-100);
-
-  --color-accent: var(--color-green-400);
-  --color-accent-medium: var(--color-green-600);
-  --color-accent-light: var(--color-green-100);
+  --color-accent: var(--color-teal-400);
+  --color-accent-medium: var(--color-teal-600);
+  --color-accent-light: var(--color-teal-100);
 
   --color-transparent: transparent;
   --color-current: currentColor;
   --color-black: #000;
   --color-white: #f3f3f3;
   --color-gray: #718096;
-}
-
-@font-face {
-  font-family: 'Blinker';
-  src: url('/fonts/blinker-light.woff2') format('woff2');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Blinker';
-  src: url('/fonts/blinker-regular.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Blinker';
-  src: url('/fonts/blinker-semibold.woff2') format('woff2');
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
 }
 
 @layer base {
@@ -90,6 +32,18 @@
 
   body {
     min-height: 100vh;
+  }
+
+  h1 {
+    @apply text-4xl;
+  }
+
+  h2 {
+    @apply text-3xl;
+  }
+
+  h3 {
+    @apply text-2xl;
   }
 }
 
@@ -104,7 +58,7 @@
 
   /*  Default card styles */
   .card {
-    @apply flex-1 bg-white p-8 rounded-xl shadow-md shadow-primary-medium text-center bg-gradient-to-br from-transparent to-blue-100;
+    @apply flex-1 bg-white p-8 rounded-xl shadow-md text-center bg-gradient-to-br from-transparent to-cyan-50;
   }
 
   .card-hover {
