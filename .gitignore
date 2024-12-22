@@ -5,3 +5,4 @@ src/resources/_gen/
 src/node_modules/
 .cursorrules
 todo.md
+src/hugo_stats.json
