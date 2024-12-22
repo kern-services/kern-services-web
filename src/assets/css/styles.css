@@ -4,8 +4,7 @@
 @theme {
   --default-font-family: "Urbanist", "sans-serif";
 
-  /* Colors */
-
+  /* Custom color names  */
   --color-primary: var(--color-cyan-800);
   --color-primary-medium: var(--color-cyan-500);
   --color-primary-light: var(--color-cyan-100);

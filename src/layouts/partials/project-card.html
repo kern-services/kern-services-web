@@ -1,6 +1,6 @@
 {{ $project := . }}
 <div class="mb-24">
-    <div class="bg-gradient-to-r from-{{ $project.color }}-600 to-{{ $project.color }}-800 rounded-lg p-8 text-white mb-6">
+    <div class="bg-linear-75 from-{{ $project.color }}-600 via-{{ $project.color }}-500 to-{{ $project.color }}-800 rounded-lg p-8 text-white mb-6">
         <div class="flex justify-between items-start">
             <div>
                 <h2 class="text-2xl font-light mb-2">{{ $project.title }}</h2>
@@ -15,14 +15,14 @@
             <div>
                 {{ with $project.description }}<p class="text-lg">{{ . }}</p>{{ end }}
                 {{ with $project.achievements }}
-                <ul>
+                <ul class="list-inside list-disc p-4 mt-4">
                     {{ range . }}
                     <li>{{ . }}</li>
                     {{ end }}
                 </ul>
                 {{ end }}
             </div>
-            <div class="{{ if $project.hasQuote }}bg-gray-50{{ else }}bg-gradient-to-br from-{{ $project.color }}-50 to-{{ $project.color }}-100{{ end }} p-8 rounded-lg flex items-center">
+            <div class="{{ if $project.hasQuote }}bg-gray-200{{ else }}bg-gradient-to-br from-{{ $project.color }}-50 to-{{ $project.color }}-100{{ end }} p-8 rounded-lg flex items-center">
                 {{ if $project.hasQuote }}
                 <blockquote class="text-gray-700 italic">
                     {{ $project.quote }}
@@ -31,7 +31,7 @@
                     </footer>
                 </blockquote>
                 {{ else if $project.image }}
-                <div class="aspect-video w-full bg-white rounded-lg shadow-lg flex items-center justify-center">
+                <div class="p-2 w-full bg-white rounded-lg shadow-lg flex items-center justify-center">
                     <img src="{{ $project.image }}" alt="{{ $project.imageAlt }}" class="rounded-lg object-cover" />
                 </div>
                 {{ end }}
@@ -46,4 +46,4 @@
             </div>
         </div>
     </div>
-</div> 
+</div>
