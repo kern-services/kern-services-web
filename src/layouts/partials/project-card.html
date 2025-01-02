@@ -15,7 +15,7 @@
             <div>
                 {{ with $project.description }}<p class="text-lg">{{ . }}</p>{{ end }}
                 {{ with $project.achievements }}
-                <ul class="list-inside list-disc p-4 mt-4">
+                <ul class="list-disc mt-4">
                     {{ range . }}
                     <li>{{ . }}</li>
                     {{ end }}

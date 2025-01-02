@@ -10,6 +10,7 @@ projects:
       - "Implementierung von Datenverarbeitung, -Visualisierung und Gerätekonfiguration"
       - "Anwendung von Clean Architecture und Domain-Driven Design Prinzipien"
       - "Integration mit Cumulocity IoT-Plattform für erweiterte Funktionalitäten"
+      - "Erweiterung des Cumulocity Frontends um eigene Komponenten unter Verwendung von Angular"
     hasQuote: false
     # quote: "Die Expertise von Herrn Kern in der Architektur und Entwicklung unserer IoT-Plattform war entscheidend für den Erfolg des Projekts. Seine Fähigkeit, komplexe technische Anforderungen in eine skalierbare Lösung zu übersetzen, hat uns überzeugt."
     # quoteAuthor: "- Geschäftsführung, ASPION GmbH"
@@ -28,7 +29,7 @@ projects:
     period: "08/2022 – 12/2023"
     role: "Entwicklung einer Plattform zur Verwaltung von Anlagen zur Stromerzeugung aus regenerativen Energien"
     color: "blue"
-    description: "In diesem Projekt wurde eine zentrale Plattform zur Verwaltung und Überwachung von Energieerzeugungsanlagen entwickelt:"
+    description: "In diesem Projekt wurde eine Plattform zur Verwaltung und Überwachung von Energieerzeugungsanlagen entwickelt:"
     achievements:
       - "Implementierung einer skalierbaren Microservices-Architektur"
       - "Integration verschiedener Energieerzeugungsanlagen und Sensoren"
@@ -51,9 +52,9 @@ projects:
     period: "12/2020 – 07/2022"
     role: "Architektur und Entwicklung einer Plattform zur Vermittlung von Schuldscheingeschäften"
     color: "purple"
-    description: "Entwicklung einer innovativen Finanzplattform, die den Schuldscheinmarkt digitalisiert:"
+    description: "Entwicklung einer innovativen Finanzplattform zur Digitalisierung des Schuldscheinmarkts:"
     achievements:
-      - "Konzeption und Implementierung einer hochsicheren Finanzplattform"
+      - "Konzeption und Implementierung einer sicheren Finanzplattform"
       - "Integration von Dokumentenmanagement und digitaler Signatur"
       - "Entwicklung eines flexiblen Workflow-Systems"
       - "Implementierung von Echtzeit-Benachrichtigungen"
@@ -71,6 +72,7 @@ projects:
       - "PostgreSQL"
       - "ActiveMQ Artemis"
       - "Keycloak"
+      - "Websockets/STOMP"
 
   - title: "Volkswagen Financial Services"
     period: "07/2019 – 11/2020"
@@ -83,9 +85,10 @@ projects:
       - "Entwicklung einer serverless Microservices-Architektur"
       - "Implementierung von Echtzeit-Entscheidungssystemen"
       - "Integration mit Händlersystemen und Banken-Backends"
+      - "Integration von Video-Identifikations-Anbietern"
     hasQuote: false
-    #image: "/images/projects/vwfs-application.jpg"
-    #imageAlt: "VWFS Finanzierungsportal"
+    image: "/images/projects/vw-leasing-config.png"
+    imageAlt: "VWFS Finanzierungsportal"
     technologies:
       - "React"
       - "NestJS"
@@ -94,6 +97,7 @@ projects:
       - "AWS Fargate"
       - "DynamoDB"
       - "API Gateway"
+      - "IDNow"
 
   - title: "AXOOM GmbH"
     subtitle: "Ausgründung der TRUMPF GmbH + Co. KG"
