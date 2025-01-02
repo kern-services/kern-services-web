@@ -32,7 +32,7 @@
                 </blockquote>
                 {{ else if $project.image }}
                 <div class="p-2 w-full bg-white rounded-lg shadow-lg flex items-center justify-center">
-                    <img src="{{ $project.image }}" alt="{{ $project.imageAlt }}" class="rounded-lg object-cover" />
+                    <img src="{{ relURL $project.image }}" alt="{{ $project.imageAlt }}" class="rounded-lg object-cover" />
                 </div>
                 {{ end }}
             </div>

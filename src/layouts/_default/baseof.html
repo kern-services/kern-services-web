@@ -29,9 +29,9 @@
         <div class="container py-4 flex justify-between items-center">
             <a href="./" class="text-2xl font-semibold text-gray-900">kern.services</a>
             <nav class="flex space-x-6">
-                <a href="./" class="text-lg text-gray-900 hover:text-blue-600">Home</a>
-                <a href="./projects" class="text-lg text-gray-900 hover:text-blue-600">Referenzen</a>
-                <a href="./impressum" class="text-lg text-gray-900 hover:text-blue-600">Impressum</a>
+                <a href="{{ relURL "/" }}" class="text-lg text-gray-900 hover:text-blue-600">Home</a>
+                <a href="{{ relURL "/projects" }}" class="text-lg text-gray-900 hover:text-blue-600">Referenzen</a>
+                <a href="{{ relURL "/impressum" }}" class="text-lg text-gray-900 hover:text-blue-600">Impressum</a>
             </nav>
         </div>
     </header>
@@ -44,7 +44,7 @@
         <div class="container py-6">
             <nav class="mb-4">
                 <ul class="flex space-x-6">
-                    <li><a href="./impressum" class="hover:text-blue-400">Impressum</a></li>
+                    <li><a href="{{ relURL "/impressum" }}" class="hover:text-blue-400">Impressum</a></li>
                     <li><a href="https://mailserver.kernetics.de/SOGo/" class="hover:text-blue-400">Mailserver Login</a></li>
                 </ul>
             </nav>
