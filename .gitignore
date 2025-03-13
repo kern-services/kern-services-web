@@ -1,8 +1,10 @@
 .DS_Store
-src/.hugo_build.lock
-src/public/
-src/resources/_gen/
-src/node_modules/
+
 .cursorrules
 todo.md
-src/hugo_stats.json
+
+/.hugo_build.lock
+/public/
+/resources/_gen/
+/node_modules/
+/hugo_stats.json

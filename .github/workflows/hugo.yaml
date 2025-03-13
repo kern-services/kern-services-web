@@ -47,17 +47,14 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
       - name: Install Node.js dependencies
-        working-directory: src
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: Install Tailwind and Typography plugin
-        working-directory: src
         run: npm install -D tailwindcss @tailwindcss/typography
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: production
           TZ: Europe/Berlin
-        working-directory: src
         run: |
           hugo \
             --gc \
@@ -66,7 +63,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: src/public
+          path: public
 
   # Deployment job
   deploy:
