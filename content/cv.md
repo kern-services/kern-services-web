@@ -8,7 +8,7 @@ language = "en"
 
 ## Executive Summary
 
-Experienced Software Architect and Full-Stack Developer with over 15 years of expertise in building scalable systems and cloud-native applications.
+Software Architect and Full-Stack Developer with over 15 years of expertise in building scalable systems and cloud-native applications.
 
 As a freelancer and former team lead at GFT Technologies, I bring comprehensive experience in architecting and implementing IoT platforms, enterprise applications, and cloud systems. My technical focus lies in .NET/C#, Angular, and cloud technologies, with particular emphasis on Clean Architecture, Domain-Driven Design, and modern DevOps practices. Through my experience across various industries (IoT, Energy, Financial Services) and my ability to master complex technical challenges, I support companies in their digital transformation and the development of future-proof systems. I place particular importance on developing sustainable and maintainable solutions, as well as fostering teamwork and knowledge sharing.
 
@@ -18,11 +18,10 @@ As a freelancer and former team lead at GFT Technologies, I bring comprehensive 
 - Focus on pragmatic, maintainable solutions
 - Expertise in Clean Architecture and Domain-Driven Design
 - Experience with both traditional and modern deployment approaches
-- Strong emphasis on simplicity and long-term maintainability
 
 ### IoT Platform Development
 - Comprehensive experience in IoT data integration and processing
-- Success in both industrial (AXOOM) and energy sector (ENBW) IoT solutions
+- Success in both industrial (AXOOM) and energy sector (EnBW) IoT solutions
 - Expertise in real-time data processing and sensor integration
 - Experience with edge computing and cloud integration
 
@@ -57,7 +56,7 @@ Last updated: March 13, 2025
   - 80% Remote, 20% On-site
   - Regular in-person meetings for team collaboration and client relationships
   - Flexible availability for on-site workshops and important meetings
-  - Strong focus on effective remote collaboration and communication
+  - Effective remote collaboration and communication
 
 ### Skills & Expertise
 
@@ -69,7 +68,7 @@ Last updated: March 13, 2025
 #### Backend Development
 - **.NET Core, C#, ASP.NET**
 - Supabase
-- Web Services, SignalR, WPF, WCF
+- API-Development, Web Services, SignalR, WPF, WCF
 - NestJS, TypeScript
 - Spring Boot, Kotlin
 
@@ -106,16 +105,12 @@ Last updated: March 13, 2025
 - Microservices Architecture
 
 #### Testing & Quality
-- **Comprehensive Testing Strategy**
-  - Strong advocate for testing and automated testing in all projects
-  - Unit Testing with xUnit, NUnit
-  - Frontend Testing with Karma, Jasmine, Cypress
-  - Mocking Frameworks: Moq, Mockito
-  - Integration Testing and API Testing
-  - Test Coverage Analysis and Quality Metrics
-- GUI Testing
+- **Test automation**
+- Unit Testing with xUnit, NUnit, Moq, Mockito
+- Frontend Testing with Karma, Jasmine, Cypress
+- Integration Testing and API Testing
+- Test Coverage Analysis and Quality Metrics, SonarQube
 - Test-Driven Development
-- Code Quality Assurance
 
 #### Project Management & Methodology
 - **Scrum, Agile**
@@ -135,8 +130,6 @@ Last updated: March 13, 2025
 - IoT & Industrial Automation
 - Energy & Renewable Resources
 - Financial Services & Banking
-- Enterprise Software Solutions
-- Cloud-Native Applications
 
 ### Development Environments & Tools
 - JetBrains Products (Rider, WebStorm, DataGrip)
@@ -146,15 +139,14 @@ Last updated: March 13, 2025
 
 ### Professional Development
 - Regular participation in technical conferences and workshops
-- Active contributor to open-source projects
-- Continuous learning in emerging technologies (AI, Cloud, etc.)
+- Continuous learning
 - Mentoring junior developers & active knowledge sharing within teams
 
 ### Education & Certificates
-10/2003 – 09/2009	Diploma in Software Engineering, University of Stuttgart
-07/2002	Abitur (German High School Diploma)
-2019	iSAQB Certified Professional for Software Architecture
-2021	ISAQB Advanced, Requirements for Software Architects
+- **10/2003 – 09/2009** Diploma in Software Engineering, University of Stuttgart
+- **07/2002** Abitur (German High School Diploma)
+- **2019** iSAQB Certified Professional for Software Architecture
+- **2021** iSAQB Advanced Level REQ4ARC, Requirements for Software Architects
 
 ### Professional Experience
 
@@ -213,7 +205,7 @@ Software Engineering studies
 - **Key Technical Achievement:** Identified and fixed a critical performance issue in an Azure Function where an exception in a loop caused 5-minute execution times; after optimization, the function completed in 2 seconds
 - **Technologies:** Angular, .NET Core/C#, Kubernetes, Azure, PostgreSQL, MSSQL, Entity Framework
 
-**DEBTVISION** (12/2020 - 12/2022)
+**DEBTVISION** (12/2020 - 10/2022)
 *Freelance Software Architect and Lead Developer*
 - Architecture and development of a platform for Schuldschein transactions
 - **Main Responsibilities:**

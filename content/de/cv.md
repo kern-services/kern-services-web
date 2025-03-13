@@ -8,7 +8,7 @@ language = "de"
 
 ## Executive Summary
 
-Erfahrener Software-Architekt und Full-Stack-Entwickler mit über 15 Jahren Expertise in der Entwicklung skalierbarer Systeme und IoT-Plattformen. Als Freelancer und ehemaliger Teamleiter bei GFT Technologies bringe ich umfassende Erfahrung in der Architektur und Implementierung von Enterprise-Lösungen mit, mit besonderem Fokus auf pragmatische, wartbare Architekturen. Mein technischer Schwerpunkt liegt in .NET/C#, Angular und Cloud-Technologien, wobei ich besonderen Wert auf Clean Architecture, Domain-Driven Design und moderne DevOps-Praktiken lege. Durch meine Erfahrung in IoT-Plattformen (sowohl im industriellen als auch im Energiesektor) und meine Fähigkeit, komplexe technische Herausforderungen zu meistern, unterstütze ich Unternehmen bei der digitalen Transformation und der Entwicklung zukunftssicherer Systeme. Besonders wichtig ist mir dabei die Entwicklung nachhaltiger und wartbarer Lösungen sowie die Förderung von Teamarbeit und Wissensvermittlung.
+Software-Architekt und Full-Stack-Entwickler mit über 15 Jahren Expertise in der Entwicklung skalierbarer Systeme und IoT-Plattformen. Als Freelancer und ehemaliger Teamleiter bei GFT Technologies bringe ich umfassende Erfahrung in der Architektur und Implementierung von Enterprise-Lösungen mit, mit besonderem Fokus auf pragmatische, wartbare Architekturen. Mein technischer Schwerpunkt liegt in .NET/C#, Angular und Cloud-Technologien, wobei ich besonderen Wert auf Clean Architecture, Domain-Driven Design und moderne DevOps-Praktiken lege. Durch meine Erfahrung in IoT-Plattformen (sowohl im industriellen als auch im Energiesektor) und meine Fähigkeit, komplexe technische Herausforderungen zu meistern, unterstütze ich Unternehmen bei der digitalen Transformation und der Entwicklung zukunftssicherer Systeme. Besonders wichtig ist mir dabei die Entwicklung nachhaltiger und wartbarer Lösungen sowie die Förderung von Teamarbeit und Wissensvermittlung.
 
 ## Kernkompetenzen
 
@@ -16,11 +16,10 @@ Erfahrener Software-Architekt und Full-Stack-Entwickler mit über 15 Jahren Expe
 - Fokus auf pragmatische, wartbare Lösungen
 - Expertise in Clean Architecture und Domain-Driven Design
 - Erfahrung mit traditionellen und modernen Deployment-Ansätzen
-- Starker Fokus auf Einfachheit und langfristige Wartbarkeit
 
 ### IoT Plattform Entwicklung
 - Umfassende Erfahrung in IoT-Datenintegration und -verarbeitung
-- Erfolgreiche Projekte im industriellen (AXOOM) und Energiesektor (ENBW)
+- Erfolgreiche Projekte im industriellen (AXOOM) und Energiesektor (EnBW), sowie im Transportsektor (ASPION)
 - Expertise in Echtzeit-Datenverarbeitung und Sensorintegration
 - Erfahrung mit Edge Computing und Cloud-Integration
 
@@ -55,19 +54,19 @@ Stand: 13.03.2025
   - 80% Remote, 20% Vor-Ort
   - Regelmäßige persönliche Treffen für Teamzusammenarbeit und Kundenbeziehungen
   - Flexible Verfügbarkeit für Vor-Ort-Workshops und wichtige Meetings
-  - Starker Fokus auf effektive Remote-Zusammenarbeit und Kommunikation
+  - Effektive Remote-Zusammenarbeit und Kommunikation
 
 ### Kenntnisse & Fähigkeiten
 
 #### Frontend Development
 - **Angular, TypeScript, JavaScript, React**
 - HTML, CSS, SCSS, Bootstrap, Tailwind
-- Blazor
+- .NET Blazor
 
 #### Backend Development
 - **.NET Core, C#, ASP.NET**
 - Supabase
-- Web Services, SignalR, WPF, WCF
+- API-Entwicklung, Web Services, SignalR, WCF
 - NestJS, TypeScript
 - Spring Boot, Kotlin
 
@@ -104,37 +103,30 @@ Stand: 13.03.2025
 - Microservices Architecture
 
 #### Testing & Quality
-- **Umfassende Teststrategie**
-  - Starker Verfechter von Tests und automatisierter Tests in allen Projekten
-  - Unit Testing mit xUnit, NUnit
-  - Frontend Testing mit Karma, Jasmine, Cypress
-  - Mocking Frameworks: Moq, Mockito
-  - Integration Testing und API Testing
-  - Test Coverage Analyse und Qualitätsmetriken
-- GUI Testing
+- **Automatisierte Tests**
+- Unit Testing mit xUnit, NUnit, Moq, Mockito
+- Frontend Testing mit Karma, Jasmine, Cypress
+- Integration Testing und API Testing
+- Test Coverage Analyse und Qualitätsmetriken, SonarQube
 - Test-Driven Development
-- Code Quality Assurance
 
-#### Project Management & Methodology
+#### Projektmanagement & Methoden
 - **Scrum, Agile**
 - Requirements Engineering
 - Team Leadership
 - Technical Documentation
 - Mentoring und Weiterentwicklung von Junior-Entwicklern
 
-#### Additional Skills
+#### Sonstige Fähigkeiten
 - Linux Server Administration
 - Windows Server & Exchange
 - Git, GitHub Flow
 - Business Process Management
-- Web Services (SOAP, WSDL, XSD)
 
 ### Branchenexpertise
 - IoT & Industrielle Automatisierung
 - Energie & Erneuerbare Ressourcen
 - Finanzdienstleistungen & Bankwesen
-- Enterprise Software Lösungen
-- Cloud-Native Anwendungen
 
 ### Entwicklungsumgebungen & Tools
 - JetBrains Produkte (Rider, WebStorm, DataGrip)
@@ -144,16 +136,15 @@ Stand: 13.03.2025
 
 ### Berufliche Weiterentwicklung
 - Regelmäßige Teilnahme an technischen Konferenzen und Workshops
-- Aktiver Beitrag zu Open-Source-Projekten
-- Kontinuierliches Lernen in aufstrebenden Technologien (AI, Cloud, etc.)
+- Kontinuierliches Lernen
 - Mentoring von Junior-Entwicklern & Aktive Wissensvermittlung im Team
 
 ### Bildung & Zertifikate
 
-**10/2003 – 09/2009** Softwaretechnik-Diplom an der Universität Stuttgart
-**07/2002** Abitur
-**2019** iSAQB Certified Professional for Software Architecture
-**2021** ISAQB Advanced, Requirements für Softwarearchitekten
+- **10/2003 – 09/2009** Softwaretechnik-Diplom an der Universität Stuttgart
+- **07/2002** Abitur
+- **2019** iSAQB Certified Professional for Software Architecture
+- **2021** iSAQB Advanced Level REQ4ARC, Requirements für Softwarearchitekten
 
 ### Übersicht
 
@@ -212,7 +203,7 @@ Studium der Softwaretechnik
 - **Wichtige technische Leistung:** Identifizierung und Behebung eines kritischen Performance-Problems in einer Azure Function, bei dem eine Ausnahme in einer Schleife zu 5-minütigen Ausführungszeiten führte; nach Optimierung wurde die Funktion in 2 Sekunden abgeschlossen
 - **Technologien:** Angular, .NET Core/C#, Kubernetes, Azure, PostgreSQL, MSSQL, Entity Framework
 
-**DEBTVISION** (12/2020 - 12/2022)
+**DEBTVISION** (12/2020 - 10/2022)
 *Freelance Software-Architekt und Lead Developer*
 - Architektur und Entwicklung einer Plattform zur Vermittlung von Schuldscheingeschäften
 - **Hauptverantwortlichkeiten:**
