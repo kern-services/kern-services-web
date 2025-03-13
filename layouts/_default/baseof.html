@@ -4,25 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
-    {{ with resources.Get "css/styles.css" }}
-    {{ $opts := dict
-      "inlineImports" true
-      "optimize" (not hugo.IsDevelopment)
-    }}
-    {{ with . | css.TailwindCSS $opts }}
-      {{ if hugo.IsDevelopment }}
-        <link rel="stylesheet" href="{{ .RelPermalink }}" />
-      {{ else }}
-        {{ with . | minify | fingerprint }}
-          <link
-            rel="stylesheet"
-            href="{{ .RelPermalink }}"
-            integrity="{{ .Data.Integrity }}"
-            crossorigin="anonymous" />
-        {{ end }}
-      {{ end }}
-    {{ end }}
-  {{ end }}
+    {{ partialCached "css.html" . }}
 </head>
 <body class="min-h-screen bg-gray-50 font-blinker">
     <header class="bg-white shadow-sm">
@@ -31,6 +13,7 @@
             <nav class="flex space-x-6">
                 <a href="{{ relURL "/" }}" class="text-lg text-gray-900 hover:text-blue-600">Home</a>
                 <a href="{{ relURL "/projects" }}" class="text-lg text-gray-900 hover:text-blue-600">Referenzen</a>
+                <a href="{{ relURL "/de/cv" }}" class="text-lg text-gray-900 hover:text-blue-600">CV</a>
                 <a href="{{ relURL "/impressum" }}" class="text-lg text-gray-900 hover:text-blue-600">Impressum</a>
             </nav>
         </div>

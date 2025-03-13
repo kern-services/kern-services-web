@@ -2,9 +2,6 @@ baseURL = 'https://kern.services/'
 languageCode = 'en-us'
 title = 'kern.services'
 
-[build]
-  writeStats = true
-
 [module]
   [[module.mounts]]
     source = "assets"
@@ -15,6 +12,10 @@ title = 'kern.services'
   [[module.mounts]]
     source = "node_modules"
     target = "assets/node_modules"
+  [[module.mounts]]
+    disableWatch = true
+    source = 'hugo_stats.json'
+    target = 'assets/notwatching/hugo_stats.json'
 
 [markup]
   [markup.goldmark]
@@ -31,11 +32,10 @@ title = 'kern.services'
     isHTML = true
     permalinkable = true
 
-[build.buildStats]
-  enable = true
-
-[build.processing]
-  [build.processing.css]
-    method = "postcss"
-    includePaths = ["assets/css"]
-    options = ["minify"]
+[build]
+  writeStats = true
+  [build.buildStats]
+    enable = true
+  [[build.cachebusters]]
+    source = 'assets/notwatching/hugo_stats\.json'
+    target = 'css'
