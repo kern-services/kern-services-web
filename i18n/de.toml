@@ -1,0 +1,5 @@
+[availableIn]
+other = "Verfügbar in"
+
+[wordCount]
+other = "{{ .WordCount }} Wörter"

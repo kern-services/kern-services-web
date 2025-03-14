@@ -1,0 +1,25 @@
+{{/*
+  This partial creates a smart link that checks if a page exists in the current language
+  and falls back to the default language if it doesn't.
+
+  Usage: {{ partial "smart-link.html" (dict "ctx" . "path" "/projects/" "title" "Referenzen") }}
+*/}}
+
+{{ $ctx := .ctx }}
+{{ $path := .path }}
+{{ $title := .title }}
+{{ $class := .class | default "text-lg text-gray-900 hover:text-blue-600" }}
+
+{{ $currentLangURL := relLangURL $path }}
+{{ $defaultLangURL := relURL $path }}
+
+{{ $targetURL := $currentLangURL }}
+
+{{ if eq $ctx.Site.Language.Lang "en" }}
+  {{ $enPage := $ctx.Site.GetPage $path }}
+  {{ if not $enPage }}
+    {{ $targetURL = $defaultLangURL }}
+  {{ end }}
+{{ end }}
+
+<a href="{{ $targetURL }}" class="{{ $class }}">{{ $title }}</a>

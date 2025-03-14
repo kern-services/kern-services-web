@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode }}">
+<html lang="{{ .Site.Language.Lang }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,12 +9,12 @@
 <body class="min-h-screen bg-gray-50 font-blinker">
     <header class="bg-white shadow-sm">
         <div class="container py-4 flex justify-between items-center">
-            <a href="{{ relURL "/" }}" class="text-2xl font-semibold text-gray-900">kern.services</a>
-            <nav class="flex space-x-6">
-                <a href="{{ relURL "/" }}" class="text-lg text-gray-900 hover:text-blue-600">Home</a>
-                <a href="{{ relURL "/projects" }}" class="text-lg text-gray-900 hover:text-blue-600">Referenzen</a>
-                <a href="{{ relURL "/de/cv" }}" class="text-lg text-gray-900 hover:text-blue-600">CV</a>
-                <a href="{{ relURL "/impressum" }}" class="text-lg text-gray-900 hover:text-blue-600">Impressum</a>
+            <a href="{{ .Site.Home.RelPermalink }}" class="text-2xl font-semibold text-gray-900">kern.services</a>
+            <nav class="flex space-x-6 items-center">
+                <a href="{{ .Site.Home.RelPermalink }}" class="text-lg text-gray-900 hover:text-blue-600">Home</a>
+                {{ partial "smart-link.html" (dict "ctx" . "path" "/projects/" "title" "Referenzen") }}
+                {{ partial "smart-link.html" (dict "ctx" . "path" "/cv/" "title" "CV") }}
+                {{ partial "smart-link.html" (dict "ctx" . "path" "/impressum/" "title" "Impressum") }}
             </nav>
         </div>
     </header>
@@ -27,7 +27,7 @@
         <div class="container py-6">
             <nav class="mb-4">
                 <ul class="flex space-x-6">
-                    <li><a href="{{ relURL "/impressum" }}" class="hover:text-blue-400">Impressum</a></li>
+                    <li>{{ partial "smart-link.html" (dict "ctx" . "path" "/impressum/" "title" "Impressum" "class" "hover:text-blue-400") }}</li>
                     <li><a href="https://mailserver.kernetics.de/SOGo/" class="hover:text-blue-400">Mailserver Login</a></li>
                 </ul>
             </nav>

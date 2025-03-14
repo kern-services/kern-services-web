@@ -1,6 +1,16 @@
 baseURL = 'https://kern.services/'
-languageCode = 'en-us'
+defaultContentLanguage = 'de'
 title = 'kern.services'
+
+[languages]
+  [languages.de]
+    languageName = 'DE'
+    contentDir = 'content'
+    weight = 1
+  [languages.en]
+    languageName = 'EN'
+    contentDir = 'content'
+    weight = 2
 
 [module]
   [[module.mounts]]

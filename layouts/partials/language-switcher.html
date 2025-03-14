@@ -1,0 +1,10 @@
+<!-- Language switcher -->
+<div class="flex gap-2 text-sm">
+  {{ range $.Site.Home.AllTranslations }}
+    {{ if eq $.Site.Language .Language }}
+      <span class="font-semibold text-blue-600">{{ .Language.LanguageName }}</span>
+    {{ else }}
+      <a href="{{ .Permalink }}" class="text-gray-600 hover:text-blue-600 hover:underline">{{ .Language.LanguageName }}</a>
+    {{ end }}
+  {{ end }}
+</div>

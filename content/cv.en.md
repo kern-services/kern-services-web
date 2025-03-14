@@ -1,10 +1,11 @@
 +++
 title = "CV"
 layout = "default"
-language = "en"
+translationKey = "cv"
 +++
 
 # Mattanja Kern
+## Software Architect & Full-Stack Developer
 
 ## Executive Summary
 
@@ -33,18 +34,18 @@ As a freelancer and former team lead at GFT Technologies, I bring comprehensive 
 
 ## Curriculum Vitae
 
-Last updated: March 13, 2025
+*Last updated: March 13, 2025*
 
 ## Personal Information
 
 ### Contact
 - **Name:** Mattanja Kern
 - **Address:** Stuttgarter Straße 57, 71735 Eberdingen
-- **Email:** mattanja@kern.services
+- **Email:** [mattanja@kern.services](mailto:mattanja@kern.services)
 - **Phone:** +49-172-7505449
-- **Website:** https://kern.services
-- **GitHub:** https://github.com/mattanja
-- **LinkedIn:** https://www.linkedin.com/in/mattanjakern/
+- **Website:** [kern.services](https://kern.services)
+- **GitHub:** [github.com/mattanja](https://github.com/mattanja)
+- **LinkedIn:** [linkedin.com/in/mattanjakern](https://www.linkedin.com/in/mattanjakern/)
 
 ### Personal Details
 - **Born:** 1982 in Stuttgart
@@ -54,11 +55,11 @@ Last updated: March 13, 2025
   - English (Fluent / Business Level)
 - **Preferred Work Model:**
   - 80% Remote, 20% On-site
-  - Regular in-person meetings for team collaboration and client relationships
-  - Flexible availability for on-site workshops and important meetings
+  - Regular in-person meetings for team collaboration
+  - Flexible availability for on-site workshops
   - Effective remote collaboration and communication
 
-### Skills & Expertise
+## Skills & Expertise
 
 #### Frontend Development
 - **Angular, TypeScript, JavaScript, React**
@@ -79,7 +80,7 @@ Last updated: March 13, 2025
 - Infrastructure as Code
 - 20 years of Linux server administration experience
 - Container management and Kubernetes cluster administration
-- Cloud-Native (Container Orchestration, Microservices Architectures, Event-Driven Design, Serverless Computing)
+- Cloud-Native (Microservices, Event-Driven Design, Serverless)
 
 #### AI & Generative Systems
 - **Retrieval-Augmented Generation (RAG)**
@@ -148,14 +149,15 @@ Last updated: March 13, 2025
 - **2019** iSAQB Certified Professional for Software Architecture
 - **2021** iSAQB Advanced Level REQ4ARC, Requirements for Software Architects
 
-### Professional Experience
+## Professional Experience
 
-#### Current Position
+### Current Position
 **Since April 2022**
 *Founder of kern.services software UG*
 Software consulting and development as a freelancer
 
-#### Previous Positions
+### Previous Positions
+
 **2002 – 2022**
 *Side Business – Software Development, Web Hosting, IT Services*
 Software development, creation of small websites, hosting services, operation of various web and mail servers, TYPO3, WordPress
@@ -184,12 +186,13 @@ Working student in the development of creditworthiness assessment software
 *University of Stuttgart*
 Software Engineering studies
 
-### Project Experience
+## Project Experience
 
-#### Current Projects (2022 - present)
+### Current Projects (2022 - present)
 
 **ASPION** (09/2023 - present)
 *Interim Team Lead, Software Architect, and Lead Developer*
+
 - Led a team of 4 developers in architecting and implementing a scalable IoT cloud platform managing 10,000+ transport sensors
 - Successfully deployed the first version to production after 4 months of development, with continuous feature additions since then
 - Implemented automated deployment
@@ -199,6 +202,7 @@ Software Engineering studies
 
 **ENBW** (08/2022 - 12/2023)
 *Software Architect and Lead Developer*
+
 - Development of a platform for managing renewable energy generation facilities
 - **Key Technical Achievement:** Architected and implemented a cloud-native system for calculating wind energy generator yield losses, integrating multiple IoT data sources through Azure Functions and messaging systems
 - **Key Technical Achievement:** Optimized frontend grid performance by implementing RxJS pipe-based data management techniques including caching, buffering, and background pre-loading, reducing loading times from >10 seconds to <500ms while maintaining full sorting and filtering capabilities
@@ -207,6 +211,7 @@ Software Engineering studies
 
 **DEBTVISION** (12/2020 - 10/2022)
 *Freelance Software Architect and Lead Developer*
+
 - Architecture and development of a platform for Schuldschein transactions
 - **Main Responsibilities:**
   - Lead Developer of a second development team focusing on supporting microservices
@@ -224,15 +229,17 @@ Software Engineering studies
   - Integration with core Schuldschein (debt obligation bonds) processing system
 - **Technologies:** Angular, Kubernetes, Spring Boot, Kotlin, PostgreSQL, ActiveMQ Artemis, Keycloak
 
-#### Previous Projects
+### Previous Projects
 
 **Volkswagen Financial Services** (07/2019 - 11/2020)
 *Lead Developer*
+
 - Development of multiple projects for vehicle financing applications
 - **Technologies:** React Frontend, NestJS Services, AWS Lambda, ECS, Fargate, DynamoDB, API Gateway, CloudWatch, IAM, S3
 
 **AXOOM GmbH** (04/2015 - 06/2019)
 *Software Developer, Lead Developer, Software Architect, Team Lead*
+
 - Development of an Industry IoT Platform (TRUMPF spin-off)
 - **Main Responsibilities:**
   - Portal for Partner Application Integration
@@ -283,16 +290,13 @@ At webix solutions GmbH, I started as a working student and then worked as a sof
   - Implementation of multiple registration portals
   - **Technologies:** C# .NET, WinForms, ASP.NET MVC, jQuery, Telerik Controls, proprietary ORM, Web-Services, Scrum & CI
 
-----
-
 ## About Me - Beyond the Professional Resume
 
 I am married and have three children. We live in Eberdingen, a small town in Baden-Württemberg. I enjoy cycling, working out at the gym, playing with my children, woodworking, gardening, and home improvement projects. I also play the violin every few years and enjoy playing chess.
 
 ### My Mobile Workspace
 
-Due to space constraints at home, I've created a unique solution - a fully equipped workspace in a camper van. This isn't my home, but rather my dedicated office that allows me to work flexibly for clients or enjoy the tranquility of nature while being productive. With a solar panel and a 2kWh battery system, I can work autonomously even on cloudy days. I prefer to work 80% remotely, but I also enjoy working with my customers and
-colleagues in person. That's why I'm also happy to be at least once a month in person with my customers.
+Due to space constraints at home, I've created a unique solution - a fully equipped workspace in a camper van. This isn't my home, but rather my dedicated office that allows me to work flexibly for clients or enjoy the tranquility of nature while being productive. With a solar panel and a 2kWh battery system, I can work autonomously even on cloudy days. I prefer to work 80% remotely, but I also enjoy working with my customers and colleagues in person. That's why I'm also happy to be at least once a month in person with my customers.
 
 ### My Work Philosophy
 
@@ -343,6 +347,6 @@ Throughout my years of collaboration with various colleagues and companies, I ha
 I collaborate with both large enterprises and startups, bringing my own ideas and experiences to each engagement. My technical versatility centers on .NET/C#, Angular, Kubernetes, and AI. While I prefer working primarily remotely (80%), I value in-person collaboration with clients and colleagues.
 
 ### Connect With Me
-- LinkedIn: https://www.linkedin.com/in/mattanjakern/
-- GitHub: https://github.com/mattanja
-- Website: https://kern.services
+- LinkedIn: [linkedin.com/in/mattanjakern](https://www.linkedin.com/in/mattanjakern/)
+- GitHub: [github.com/mattanja](https://github.com/mattanja)
+- Website: [kern.services](https://kern.services)

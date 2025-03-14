@@ -1,10 +1,11 @@
 +++
 title = "Lebenslauf"
 layout = "default"
-language = "de"
+translationKey = "cv"
 +++
 
 # Mattanja Kern
+## Software-Architekt & Full-Stack-Entwickler
 
 ## Executive Summary
 
@@ -31,18 +32,18 @@ Software-Architekt und Full-Stack-Entwickler mit über 15 Jahren Expertise in de
 
 ## Lebenslauf
 
-Stand: 13.03.2025
+*Stand: 13.03.2025*
 
 ## Persönliche Informationen
 
 ### Kontakt
 - **Name:** Mattanja Kern
 - **Adresse:** Stuttgarter Straße 57, 71735 Eberdingen
-- **Email:** mattanja@kern.services
+- **Email:** [mattanja@kern.services](mailto:mattanja@kern.services)
 - **Telefon:** +49-172-7505449
-- **Website:** https://kern.services
-- **GitHub:** https://github.com/mattanja
-- **LinkedIn:** https://www.linkedin.com/in/mattanjakern/
+- **Website:** [kern.services](https://kern.services)
+- **GitHub:** [github.com/mattanja](https://github.com/mattanja)
+- **LinkedIn:** [linkedin.com/in/mattanjakern](https://www.linkedin.com/in/mattanjakern/)
 
 ### Persönliche Details
 - **Geboren:** 1982 in Stuttgart
@@ -52,11 +53,11 @@ Stand: 13.03.2025
   - Englisch (Fließend / Verhandlungssicher)
 - **Bevorzugtes Arbeitsmodell:**
   - 80% Remote, 20% Vor-Ort
-  - Regelmäßige persönliche Treffen für Teamzusammenarbeit und Kundenbeziehungen
-  - Flexible Verfügbarkeit für Vor-Ort-Workshops und wichtige Meetings
+  - Regelmäßige persönliche Treffen für Teamzusammenarbeit
+  - Flexible Verfügbarkeit für Vor-Ort-Workshops
   - Effektive Remote-Zusammenarbeit und Kommunikation
 
-### Kenntnisse & Fähigkeiten
+## Kenntnisse & Fähigkeiten
 
 #### Frontend Development
 - **Angular, TypeScript, JavaScript, React**
@@ -77,7 +78,7 @@ Stand: 13.03.2025
 - Infrastructure as Code
 - 20 Jahre Erfahrung in Linux-Server-Administration
 - Container-Management und Kubernetes-Cluster-Administration
-- Cloud-Native (Container-Orchestrierung, Microservices-Architekturen, Event-Driven Design, Serverless Computing)
+- Cloud-Native (Microservices, Event-Driven Design, Serverless)
 
 #### KI & Generative Systeme
 - **Retrieval-Augmented Generation (RAG)**
@@ -140,20 +141,20 @@ Stand: 13.03.2025
 - Mentoring von Junior-Entwicklern & Aktive Wissensvermittlung im Team
 
 ### Bildung & Zertifikate
-
 - **10/2003 – 09/2009** Softwaretechnik-Diplom an der Universität Stuttgart
 - **07/2002** Abitur
 - **2019** iSAQB Certified Professional for Software Architecture
 - **2021** iSAQB Advanced Level REQ4ARC, Requirements für Softwarearchitekten
 
-### Übersicht
+## Übersicht
 
-#### Aktuelle Position
+### Aktuelle Position
 **seit April 2022**
 *Gründung kern.services software UG*
 Software-Beratung und -Entwicklung auf selbstständiger Basis (Freelancer)
 
-#### Frühere Positionen
+### Frühere Positionen
+
 **2002 – 2022**
 *Nebengewerbe – Software-Entwicklung, Webhosting, IT Services*
 Software-Entwicklung, Erstellung kleiner Webseiten, Hosting-Dienstleistungen, Betrieb diverser Web- und Mailserver, TYPO3, WordPress
@@ -182,12 +183,13 @@ Werkstudent in der Entwicklung von Software zur Kreditwürdigkeitsprüfung
 *Universität Stuttgart*
 Studium der Softwaretechnik
 
-### Projekterfahrung
+## Projekterfahrung
 
-#### Aktuelle Projekte (2022 - heute)
+### Aktuelle Projekte (2022 - heute)
 
 **ASPION** (09/2023 - heute)
 *Interim Teamleiter, Software-Architekt und Lead-Developer*
+
 - Leitung eines 4-köpfigen Entwicklerteams bei der Architektur und Implementierung einer skalierbaren IoT-Cloud-Plattform zur Verwaltung von über 10.000 Transportsensoren
 - Erfolgreicher Go-Live der ersten Version nach 4 Monaten Entwicklungszeit, seitdem kontinuierliche Erweiterungen
 - Implementierung automatisierter Deployment-Prozesse
@@ -197,6 +199,7 @@ Studium der Softwaretechnik
 
 **ENBW** (08/2022 - 12/2023)
 *Software-Architekt und Lead Developer*
+
 - Entwicklung einer Plattform zur Verwaltung von Anlagen zur Stromerzeugung aus regenerativen Energien
 - **Wichtige technische Leistung:** Architektur und Implementierung eines Cloud-nativen Systems zur Berechnung von Ertragsverlusten von Windenergieanlagen, Integration mehrerer IoT-Datenquellen über Azure Functions und Messaging-Systeme
 - **Wichtige technische Leistung:** Optimierung der Frontend-Grid-Performance durch Implementierung RxJS-Pipe-basierter Datenmanagement-Techniken wie Caching, Pufferung und Hintergrund-Vorladen, Reduzierung der Ladezeiten von >10 Sekunden auf <500ms bei vollständiger Beibehaltung von Sortier- und Filterfunktionen
@@ -205,6 +208,7 @@ Studium der Softwaretechnik
 
 **DEBTVISION** (12/2020 - 10/2022)
 *Freelance Software-Architekt und Lead Developer*
+
 - Architektur und Entwicklung einer Plattform zur Vermittlung von Schuldscheingeschäften
 - **Hauptverantwortlichkeiten:**
   - Lead Developer eines zweiten Entwicklungsteams mit Fokus auf unterstützende Microservices
@@ -222,15 +226,17 @@ Studium der Softwaretechnik
   - Integration mit dem Kernsystem zur Verarbeitung von Schuldscheinen
 - **Technologien:** Angular, Kubernetes, Spring Boot, Kotlin, PostgreSQL, ActiveMQ Artemis, Keycloak
 
-#### Frühere Projekte
+### Frühere Projekte
 
 **Volkswagen Financial Services** (07/2019 - 11/2020)
 *Lead-Developer*
+
 - Entwicklung mehrerer Projekte zur Beantragung von Fahrzeugfinanzierungen
 - **Technologien:** React Frontend, NestJS Services, AWS Lambda, ECS, Fargate, DynamoDB, API Gateway, CloudWatch, IAM, S3
 
 **AXOOM GmbH** (04/2015 - 06/2019)
 *Software-Entwickler, Lead-Developer, Software-Architekt, Teamleitung*
+
 - Entwicklung einer Industry IoT Plattform (TRUMPF Ausgründung)
 - **Hauptverantwortlichkeiten:**
   - Portal zur Integration von Partner-Anwendungen
@@ -280,8 +286,6 @@ Bei webix solutions GmbH habe ich bereits als Werkstudent begonnen und war dann 
   - Entwicklung eines Workflow-Management-Systems für Marketing-Services
   - Implementierung mehrerer Registrierungsportale
   - **Technologien:** C# .NET, WinForms, ASP.NET MVC, jQuery, Telerik Controls, proprietäres ORM, Web-Services, Scrum & CI
-
-----
 
 ## Über mich - Jenseits des beruflichen Lebenslaufs
 
@@ -340,7 +344,7 @@ Im Laufe meiner langjährige Zusammenarbeit mit verschiedenen Kollegen und Unter
 Ich arbeite sowohl mit großen Unternehmen als auch mit Startups zusammen und bringe meine eigenen Ideen und Erfahrungen in jedes Engagement ein. Meine technische Vielseitigkeit konzentriert sich auf .NET/C#, Angular, Kubernetes und KI. Während ich bevorzugt überwiegend remote (80%) arbeite, schätze ich die persönliche Zusammenarbeit mit Kunden und Kollegen.
 
 ### Kontakt
-- LinkedIn: https://www.linkedin.com/in/mattanjakern/
-- GitHub: https://github.com/mattanja
-- Webseite: https://kern.services
+- LinkedIn: [linkedin.com/in/mattanjakern](https://www.linkedin.com/in/mattanjakern/)
+- GitHub: [github.com/mattanja](https://github.com/mattanja)
+- Webseite: [kern.services](https://kern.services)
 
