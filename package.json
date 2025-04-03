@@ -4,7 +4,7 @@
   "description": "Website for kern.services",
   "scripts": {
     "start": "hugo server",
-    "dev": "hugo server",
+    "dev": "hugo server -D",
     "build": "hugo --gc --minify"
   },
   "keywords": [],
