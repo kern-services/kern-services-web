@@ -1,0 +1,12 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+
+# Your rule content
+
+- This is a hugo website with a blog named "insights"
+- The website represents the company "kern.services" with "Mattanja Kern" being the owner and freelance software engineer
+- Use Tailwind CSS v4 syntax
+- Prefer using styles from [styles.html](mdc:content/styles.html)

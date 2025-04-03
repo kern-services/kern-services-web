@@ -3,8 +3,13 @@ title: "Welcome to kern.services Insights"
 date: 2024-03-14
 description: "An introduction to our new insights section where we share our knowledge and experiences in software development"
 tags: ["welcome", "introduction", "software development", "technology"]
-featuredImage: "/images/insights/welcome-featured.svg"
-author: "Matthias Kern"
+featuredImage: "/images/insights/braden-collum-9HI8UJMSdZA-unsplash.jpg"
+author: "Mattanja Kern"
+photoCredit:
+  photographer: "Braden Collum"
+  photographerUrl: "https://unsplash.com/@bradencollum?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+  source: "Unsplash"
+  sourceUrl: "https://unsplash.com/photos/man-on-running-field-9HI8UJMSdZA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
 ---
 
 # Welcome to kern.services Insights

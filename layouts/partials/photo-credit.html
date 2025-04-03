@@ -1,0 +1,8 @@
+{{ $photographer := .photographer }}
+{{ $photographerUrl := .photographerUrl }}
+{{ $source := .source }}
+{{ $sourceUrl := .sourceUrl }}
+
+<div class="text-xs text-gray-500 mt-2">
+    Photo by <a href="{{ $photographerUrl }}" class="hover:text-blue-600" target="_blank" rel="noopener noreferrer">{{ $photographer }}</a> on <a href="{{ $sourceUrl }}" class="hover:text-blue-600" target="_blank" rel="noopener noreferrer">{{ $source }}</a>
+</div>

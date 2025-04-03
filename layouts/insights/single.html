@@ -4,12 +4,15 @@
     {{ if $featuredImage }}
     <div class="mb-8">
         <img src="{{ $featuredImage }}" alt="{{ .Title }}" class="w-full rounded-lg shadow-md">
+        {{ if .Params.photoCredit }}
+            {{ partial "photo-credit.html" .Params.photoCredit }}
+        {{ end }}
     </div>
     {{ end }}
 
     <header class="mb-8">
         <div class="flex items-center text-sm text-gray-500 mb-4">
-            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
             {{ if .Params.tags }}
             <span class="mx-2">•</span>
             <div class="flex flex-wrap gap-2">
