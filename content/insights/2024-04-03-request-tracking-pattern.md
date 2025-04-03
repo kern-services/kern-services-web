@@ -12,10 +12,6 @@ photoCredit:
   sourceUrl: "https://unsplash.com/photos/group-of-men-running-in-track-field-HgoKvtKpyHA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
 ---
 
-# Request Tracking Pattern: Preventing Duplicate API Calls in .NET
-
-## Introduction
-
 In modern distributed systems, handling concurrent requests efficiently is crucial for both performance and cost optimization. One common challenge is dealing with multiple simultaneous requests for the same resource. Without proper handling, this can lead to redundant database queries, unnecessary API calls to external services, and increased costs.
 
 In this article, we'll explore the Request Tracking Pattern - a powerful technique to prevent duplicate requests while maintaining system responsiveness. We'll implement this pattern in C# using .NET's `ConcurrentDictionary` and `TaskCompletionSource`.
