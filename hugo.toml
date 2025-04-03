@@ -49,3 +49,11 @@ title = 'kern.services'
   [[build.cachebusters]]
     source = 'assets/notwatching/hugo_stats\.json'
     target = 'css'
+
+# Insights specific configurations
+[permalinks]
+  insights = "/insights/:year/:month/:title/"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"

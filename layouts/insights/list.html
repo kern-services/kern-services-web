@@ -1,0 +1,12 @@
+{{ define "main" }}
+<div class="max-w-4xl mx-auto">
+    <h1 class="text-4xl font-bold text-gray-900 mb-8">Insights</h1>
+    <p class="text-xl text-gray-600 mb-12">Thoughts, experiences, and knowledge from our software development journey.</p>
+
+    <div class="grid gap-8 md:grid-cols-2">
+        {{ range .Pages }}
+            {{ partial "insights/card.html" . }}
+        {{ end }}
+    </div>
+</div>
+{{ end }}
