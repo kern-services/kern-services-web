@@ -3,7 +3,14 @@
     {{ $featuredImage := .Params.featuredImage }}
     {{ if $featuredImage }}
     <div class="mb-8">
-        <img src="{{ $featuredImage }}" alt="{{ .Title }}" class="w-full rounded-lg shadow-md">
+        {{ with resources.GetMatch (strings.TrimPrefix "/" $featuredImage) }}
+            {{ partial "responsive-image.html" (dict
+                "image" .
+                "alt" $.Title
+                "class" "w-full rounded-lg shadow-md"
+                "sizes" "100vw"
+            ) }}
+        {{ end }}
         {{ if .Params.photoCredit }}
             {{ partial "photo-credit.html" .Params.photoCredit }}
         {{ end }}

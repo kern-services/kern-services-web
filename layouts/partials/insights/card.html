@@ -2,7 +2,14 @@
 <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
     {{ if $featuredImage }}
     <div class="aspect-w-16 aspect-h-9">
-        <img src="{{ $featuredImage }}" alt="{{ .Title }}" class="object-cover w-full h-full">
+        {{ with resources.GetMatch (strings.TrimPrefix "/" $featuredImage) }}
+            {{ partial "responsive-image.html" (dict
+                "image" .
+                "alt" $.Title
+                "class" "object-cover w-full h-full"
+                "sizes" "(min-width: 768px) 50vw, 100vw"
+            ) }}
+        {{ end }}
     </div>
     {{ end }}
     <div class="p-6">

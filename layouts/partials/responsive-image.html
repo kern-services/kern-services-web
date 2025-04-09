@@ -1,0 +1,41 @@
+{{ $image := .image }}
+{{ $alt := .alt }}
+{{ $class := .class }}
+{{ $sizes := .sizes | default "100vw" }}
+
+{{ with $image }}
+  {{ $original := . }}
+  {{ $thumbnail := $original.Fit "400x300" }}
+  {{ $medium := $original.Fit "800x600" }}
+  {{ $large := $original.Fit "1200x900" }}
+  {{ $hero := $original.Fit "1920x1080" }}
+
+  <picture>
+    <source
+      media="(min-width: 1200px)"
+      srcset="{{ $hero.RelPermalink }} 1920w,
+              {{ $large.RelPermalink }} 1200w"
+      sizes="{{ $sizes }}"
+    >
+    <source
+      media="(min-width: 768px)"
+      srcset="{{ $large.RelPermalink }} 1200w,
+              {{ $medium.RelPermalink }} 800w"
+      sizes="{{ $sizes }}"
+    >
+    <source
+      media="(min-width: 480px)"
+      srcset="{{ $medium.RelPermalink }} 800w,
+              {{ $thumbnail.RelPermalink }} 400w"
+      sizes="{{ $sizes }}"
+    >
+    <img
+      src="{{ $thumbnail.RelPermalink }}"
+      alt="{{ $alt }}"
+      class="{{ $class }}"
+      loading="lazy"
+      width="{{ $thumbnail.Width }}"
+      height="{{ $thumbnail.Height }}"
+    >
+  </picture>
+{{ end }}

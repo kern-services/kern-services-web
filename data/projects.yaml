@@ -37,7 +37,7 @@ projects:
       - "Implementierung von Prognosemodellen und Wartungsplanung"
       - "Anbindung an bestehende EnBW-Systeme"
     hasQuote: false
-    image: "/images/projects/enbw-e-cockpit.avif"
+    image: "/images/projects/enbw-e-cockpit.png"
     imageAlt: "Dashboard für erneuerbare Energien"
     technologies:
       - "Angular"

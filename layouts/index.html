@@ -27,8 +27,14 @@
         </div>
       </div>
       <div class="min-w-[200px] max-w-[30%] w-[200px]">
-        <img src="{{ relURL "/images/mattanja-profile.jpg" }}" alt="Mattanja Kern" class="rounded-full w-full h-auto"
-        style="box-shadow: 0 0 30px rgba(92, 201, 221, 0.8);" />
+        {{ with resources.GetMatch "images/mattanja-profile.jpg" }}
+            {{ partial "responsive-image.html" (dict
+                "image" .
+                "alt" "Mattanja Kern"
+                "class" "rounded-full w-full h-auto"
+                "sizes" "200px"
+            ) }}
+        {{ end }}
       </div>
     </div>
   </div>
@@ -127,7 +133,14 @@
         <p class="text-lg">Eberdingen im Herzen von Baden-Württemberg ist die Heimat von kern.services</p>
       </div>
       <div class="flex-1 min-w-[50%] max-w-[30%] w-[50%]">
-        <img src="/images/eberdingen.jpg" alt="Eberdingen" class="rounded-4xl shadow-lg w-full h-auto" />
+        {{ with resources.GetMatch "images/eberdingen.jpg" }}
+            {{ partial "responsive-image.html" (dict
+                "image" .
+                "alt" "Eberdingen"
+                "class" "rounded-4xl shadow-lg w-full h-auto"
+                "sizes" "(min-width: 768px) 30vw, 50vw"
+            ) }}
+        {{ end }}
       </div>
     </div>
   </div>

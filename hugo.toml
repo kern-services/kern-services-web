@@ -57,3 +57,28 @@ title = 'kern.services'
 [taxonomies]
   tag = "tags"
   category = "categories"
+
+[imaging]
+  anchor = "Smart"
+  quality = 75
+  resampleFilter = "Lanczos"
+  [imaging.exif]
+    excludeFields = ""
+
+[imaging.processing]
+  [imaging.processing.thumbnail]
+    width = 400
+    height = 300
+    filter = "Smart"
+  [imaging.processing.medium]
+    width = 800
+    height = 600
+    filter = "Smart"
+  [imaging.processing.large]
+    width = 1200
+    height = 900
+    filter = "Smart"
+  [imaging.processing.hero]
+    width = 1920
+    height = 1080
+    filter = "Smart"

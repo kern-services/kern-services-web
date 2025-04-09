@@ -32,7 +32,14 @@
                 </blockquote>
                 {{ else if $project.image }}
                 <div class="p-2 w-full bg-white rounded-lg shadow-lg flex items-center justify-center">
-                    <img src="{{ relURL $project.image }}" alt="{{ $project.imageAlt }}" class="rounded-lg object-cover" />
+                    {{ with resources.GetMatch (strings.TrimPrefix "/" $project.image) }}
+                        {{ partial "responsive-image.html" (dict
+                            "image" .
+                            "alt" $project.imageAlt
+                            "class" "rounded-lg object-cover"
+                            "sizes" "(min-width: 768px) 50vw, 100vw"
+                        ) }}
+                    {{ end }}
                 </div>
                 {{ end }}
             </div>

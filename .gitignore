@@ -9,3 +9,5 @@ todo.md
 /resources/_gen/
 /node_modules/
 /hugo_stats.json
+
+/.local/
