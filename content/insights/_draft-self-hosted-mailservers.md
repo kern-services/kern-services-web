@@ -3,6 +3,7 @@ title: "Self-hosted Mailservers"
 date: 2025-04-04
 author: "Mattanja Kern"
 description: "A comparison of different self-hosted mailservers and how to setup a mailserver"
+draft: true
 ---
 
 Why self-hosted mailservers?

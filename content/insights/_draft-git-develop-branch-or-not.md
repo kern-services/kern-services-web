@@ -3,6 +3,7 @@ title: "Git Flows (develop branch or not)"
 date: 2025-04-04
 author: "Mattanja Kern"
 description: "Should we have a develop branch or not? How do we deploy new versions to production?"
+draft: true
 ---
 
 In this article, I'll assume that you know what CI/CD is and why it is important.
