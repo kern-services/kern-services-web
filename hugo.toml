@@ -2,6 +2,14 @@ baseURL = 'https://kern.services/'
 defaultContentLanguage = 'de'
 title = 'kern.services'
 
+[params]
+  description = "Mattanja Kern - Freelance Software Engineer und Softwareentwickler. Spezialisiert auf moderne Webentwicklung und Softwarelösungen."
+  author = "Mattanja Kern"
+  defaultImage = "/images/mattanja-profile.jpg"
+  keywords = ["Softwareentwicklung", "Webentwicklung", "Freelance", "Software Engineer", "Mattanja Kern", "Software Architekt", "Software Development", "Software Engineering", "Software Architecture", "Requirements Engineering", "Software Project Management"]
+  [params.social]
+    linkedin = "https://linkedin.com/in/mattanjakern"
+
 [languages]
   [languages.de]
     languageName = 'DE'
