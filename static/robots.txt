@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /cv/
+Disallow: /docs/
+Disallow: /impressum.html
+
+Allow: /
