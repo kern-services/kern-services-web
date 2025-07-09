@@ -7,6 +7,11 @@ translationKey = "cv"
 # Mattanja Kern
 ## Software-Architekt & Full-Stack-Entwickler
 
+
+<a href="/docs/Mattanja%20Kern%20-%20Lebenslauf.pdf" download class="inline-block bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors duration-200 font-medium mb-6">Lebenslauf als PDF herunterladen</a>
+
+---
+
 ## Executive Summary
 
 Software-Architekt und Full-Stack-Entwickler mit über 15 Jahren Expertise in der Entwicklung skalierbarer Systeme und IoT-Plattformen. Als Freelancer und ehemaliger Teamleiter bei GFT Technologies bringe ich umfassende Erfahrung in der Architektur und Implementierung von Enterprise-Lösungen mit, mit besonderem Fokus auf pragmatische, wartbare Architekturen. Mein technischer Schwerpunkt liegt in .NET/C#, Angular und Cloud-Technologien, wobei ich besonderen Wert auf Clean Architecture, Domain-Driven Design und moderne DevOps-Praktiken lege. Durch meine Erfahrung in IoT-Plattformen (sowohl im industriellen als auch im Energiesektor) und meine Fähigkeit, komplexe technische Herausforderungen zu meistern, unterstütze ich Unternehmen bei der digitalen Transformation und der Entwicklung zukunftssicherer Systeme. Besonders wichtig ist mir dabei die Entwicklung nachhaltiger und wartbarer Lösungen sowie die Förderung von Teamarbeit und Wissensvermittlung.
