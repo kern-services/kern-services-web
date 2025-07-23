@@ -1,6 +1,6 @@
 ---
 title: "Request Tracking Pattern: Preventing Duplicate API Calls in .NET"
-date: 2024-04-03
+date: 2025-04-03
 description: "Learn how to implement the Request Tracking Pattern in .NET to prevent duplicate API calls and optimize resource usage in distributed systems"
 tags: ["concurrency", "dotnet", "performance", "patterns", "api"]
 featuredImage: "/images/insights/jonathan-chng-HgoKvtKpyHA-unsplash.jpg"
