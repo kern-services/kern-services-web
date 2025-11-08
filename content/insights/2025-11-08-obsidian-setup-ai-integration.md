@@ -184,5 +184,5 @@ If you're interested in learning more about Obsidian or have questions about my 
 - [Obsidian Community Plugins](https://obsidian.md/plugins)
 - [Tasks Plugin Documentation](https://obsidian-tasks-group.github.io/obsidian-tasks/)
 - [Cursor IDE](https://cursor.sh/)
-- [Autosync for OwnCloud (Android)](https://play.google.com/store/apps/details?id=com.ttxapps.drivesync)
+- [Autosync - File Sync & Backup (Android)](https://play.google.com/store/apps/details?id=com.ttxapps.autosync)
 
