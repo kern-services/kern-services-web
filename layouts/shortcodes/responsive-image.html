@@ -1,0 +1,14 @@
+{{ $imagePath := .Get "image" }}
+{{ $alt := .Get "alt" | default "" }}
+{{ $class := .Get "class" | default "" }}
+{{ $sizes := .Get "sizes" | default "100vw" }}
+
+{{ with resources.GetMatch $imagePath }}
+  {{ partial "responsive-image.html" (dict
+    "image" .
+    "alt" $alt
+    "class" $class
+    "sizes" $sizes
+  ) }}
+{{ end }}
+

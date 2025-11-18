@@ -1,0 +1,14 @@
+{{ $insights := where .Page.Site.RegularPages "Section" "insights" }}
+{{ $latestInsights := first 3 (where $insights "Draft" false) }}
+{{ if $latestInsights }}
+<div class="mb-8">
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+    {{ range $latestInsights }}
+      {{ partial "insights/card.html" . }}
+    {{ end }}
+  </div>
+  <div class="text-center mt-8">
+    <a href="/insights/" class="text-blue-600 hover:text-blue-800 font-medium">Alle Insights anzeigen →</a>
+  </div>
+</div>
+{{ end }}

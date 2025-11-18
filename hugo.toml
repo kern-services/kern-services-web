@@ -9,6 +9,7 @@ title = 'kern.services'
   keywords = ["Softwareentwicklung", "Webentwicklung", "Freelance", "Software Engineer", "Mattanja Kern", "Software Architekt", "Software Development", "Software Engineering", "Software Architecture", "Requirements Engineering", "Software Project Management"]
   [params.social]
     linkedin = "https://linkedin.com/in/mattanjakern"
+    github = "https://github.com/mattanja"
 
 [languages]
   [languages.de]

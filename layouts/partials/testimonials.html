@@ -1,0 +1,17 @@
+{{ $testimonials := .Site.Data.testimonials.testimonials }}
+{{ if $testimonials }}
+<div class="space-y-8">
+  {{ range $testimonials }}
+  <div class="bg-white rounded-lg shadow-md p-6">
+    <blockquote class="text-gray-700 italic mb-4 text-lg">
+      "{{ .quote }}"
+    </blockquote>
+    <footer class="text-sm text-gray-600 border-t pt-4">
+      <div class="font-semibold text-gray-900">{{ .name }}</div>
+      <div>{{ .role }}, {{ .company }}</div>
+    </footer>
+  </div>
+  {{ end }}
+</div>
+{{ end }}
+

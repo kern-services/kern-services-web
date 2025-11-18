@@ -1,0 +1,10 @@
+testimonials:
+  - name: "Jacob Hadra"
+    role: "Head of IT"
+    company: "DEBTVISION GmbH"
+    quote: "Als Lead Developer und Mitglied unseres Core-Architekturteams hat Mattanja Kern maßgeblich zur Entwicklung unserer Plattform zur Vermittlung von Schuldscheingeschäften beigetragen. Er leitete ein externes Entwicklungsteam für unterstützende Microservices. Besonders hervorzuheben ist die Architektur und Implementierung unseres umfassenden Benachrichtigungssystems mit Echtzeit-WebSocket-Benachrichtigungen, Chat-Kommunikation, E-Mail-Service und PDF-Generierung. Ich habe sehr gerne mit Mattanja zusammengearbeitet und empfehle ihn gerne weiter!"
+
+  - name: "Björn Böttle"
+    role: "Architekt"
+    company: "EnBW Energie Baden-Württemberg AG"
+    quote: "Mattanja Kern hat als Freelance Software-Entwickler sehr erfolgreich an der Entwicklung unserer Plattform zur Verwaltung von Anlagen zur Stromerzeugung aus regenerativen Energien mitgewirkt. Besonders beeindruckend waren seine Beiträge bei der Architektur eines Cloud-nativen Systems zur Berechnung von Ertragsverlusten von Windenergieanlagen mit Integration mehrerer IoT-Datenquellen. Durch seine Optimierung der Angular-Grid-Performance konnten wir die Ladezeiten erheblich reduzieren. Seine Expertise in Angular, .NET Core und Azure war für den Projekterfolg wertvoll und ich empfehle ihn gerne und uneingeschränkt weiter."
